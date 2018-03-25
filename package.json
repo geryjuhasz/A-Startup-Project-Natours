@@ -1,0 +1,14 @@
+{
+  "name": "css_sass",
+  "version": "1.0.0",
+  "description": "A project to be completed in one month",
+  "main": "try1.html",
+  "scripts": {
+    "compile:sass":"node-sass --w scss/ -o style.css "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
